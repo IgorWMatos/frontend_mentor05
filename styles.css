@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header img {
+  width: 80px;
+}
+header span {
+  height: 10px;
+  width: 100vw;
+  bottom: 15px;
+  position: absolute;
+  box-shadow: 0px 23px 4px #fff;
+}
+
+main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main button {
+  height: 45px;
+  width: 180px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+}
+main .first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+main .first-section h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+main .first-section h2 {
+  max-width: 725px;
+  text-align: center;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 20px;
+  font-weight: 400;
+}
+main .first-section .button-ios {
+  background-color: hsl(171deg, 66%, 44%);
+}
+main .first-section .button-mac {
+  background-color: hsl(233deg, 100%, 69%);
+}
+main .first-section .button-ios:hover {
+  background-color: hsl(171deg, 69%, 51%);
+  box-shadow: 0px 2px 2px hsl(171deg, 66%, 44%);
+}
+main .first-section .button-mac:hover {
+  background-color: hsl(233deg, 100%, 72%);
+  box-shadow: 0px 2px 2px hsl(233deg, 100%, 69%);
+}
+main .second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+main .second-section h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+main .second-section h2 {
+  max-width: 725px;
+  text-align: center;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 18px;
+  font-weight: 400;
+}
+main .second-section .computer-box {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 130px;
+}
+main .second-section .computer-box img {
+  position: absolute;
+  left: -50px;
+}
+main .second-section .computer-box .articles-one {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 150px 150px;
+  padding-left: 1000px;
+}
+main .second-section .computer-box .articles-one article {
+  padding: 20px 0;
+}
+main .second-section .computer-box .articles-one article h1 {
+  font-size: 26px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+main .second-section .computer-box .articles-one article p {
+  max-width: 450px;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 18px;
+  font-weight: 400;
+}
+main .third-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+main .third-section h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+main .third-section h2 {
+  max-width: 725px;
+  text-align: center;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 18px;
+  font-weight: 400;
+}
+main .fourth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+main .fourth-section h1 {
+  font-size: 32px;
+}
+main .fourth-section h2 {
+  text-align: center;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 16px;
+  font-weight: 400;
+}
+main .fourth-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  gap: 40px;
+}
+main .fourth-section .container .box {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+main .fourth-section .container .box h1 {
+  font-size: 22px;
+}
+main .fourth-section .container .box p {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  width: 350px;
+  text-align: center;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 16px;
+  font-weight: 400;
+}
+main .clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 140px;
+  margin-top: 150px;
+}
+main .fifthy-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  margin: 150px 0;
+}
+main .fifthy-section h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+main .fifthy-section h2 {
+  max-width: 725px;
+  text-align: center;
+  color: hsl(201deg, 11%, 66%);
+  font-size: 20px;
+  font-weight: 400;
+}
+main .fifthy-section .button-ios {
+  background-color: hsl(171deg, 66%, 44%);
+}
+main .fifthy-section .button-mac {
+  background-color: hsl(233deg, 100%, 69%);
+}
+main .fifthy-section .button-ios:hover {
+  background-color: hsl(171deg, 69%, 51%);
+  box-shadow: 0px 2px 2px hsl(171deg, 66%, 44%);
+}
+main .fifthy-section .button-mac:hover {
+  background-color: hsl(233deg, 100%, 72%);
+  box-shadow: 0px 2px 2px hsl(233deg, 100%, 69%);
+}
+
+footer {
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(0deg, 0%, 96%);
+  padding: 0 25px;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+footer .links img {
+  width: 80px;
+  height: 80px;
+}
+footer .links ul {
+  height: 100px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 18px;
+  padding-top: 20px;
+  gap: 20px 80px;
+}
+footer .links ul a {
+  color: #a1a8ac;
+  cursor: pointer;
+}
+footer .links ul a:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+footer .social {
+  display: flex;
+  gap: 15px;
+  padding-left: 10px;
+}
+footer .social img {
+  width: 30px;
+  cursor: pointer;
+}
+footer .social img:hover {
+  filter: invert(59%) sepia(77%) saturate(437%) hue-rotate(121deg) brightness(90%) contrast(82%);
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  background-color: hsl(0deg, 0%, 96%);
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (max-width: 380px) {
+  img {
+    max-width: 340px;
+  }
+  header img {
+    height: 100px;
+    width: 100px;
+  }
+  .first-section h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .first-section h2 {
+    font-size: 16px !important;
+  }
+  .first-section button {
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .second-section h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .second-section h2 {
+    font-size: 16px !important;
+  }
+  .second-section .computer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px !important;
+  }
+  .second-section .computer-box img {
+    position: relative !important;
+    left: 0 !important;
+    padding: 20px 0 !important;
+  }
+  .second-section .computer-box .articles-one {
+    padding: 0 !important;
+  }
+  .second-section .computer-box .articles-one article {
+    padding: 15px !important;
+    text-align: center !important;
+  }
+  .second-section .computer-box .articles-one article h1 {
+    font-size: 22px !important;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+  .second-section .computer-box .articles-one article p {
+    max-width: 450px;
+    color: hsl(201deg, 11%, 66%) !important;
+    font-size: 14px !important;
+    font-weight: 400;
+  }
+  .third-section h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .third-section h2 {
+    font-size: 16px !important;
+  }
+  .fourth-section h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .fourth-section h2 {
+    font-size: 16px !important;
+  }
+  .fourth-section .container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 25px;
+  }
+  .clients {
+    display: flex;
+    flex-direction: column;
+    gap: 100px !important;
+  }
+  .fifthy-section h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .fifthy-section h2 {
+    font-size: 16px !important;
+  }
+  .fifthy-section button {
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  footer {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  footer .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 5px;
+  }
+  footer .links img {
+    height: 50px;
+    width: 50px;
+  }
+  footer .links ul {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  footer .social {
+    padding-top: 40px;
+  }
+}/*# sourceMappingURL=styles.css.map */
